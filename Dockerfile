@@ -35,3 +35,4 @@ RUN printf '<Directory /var/www/html/public>\n\
 RUN a2enconf laravel
 
 EXPOSE 80
+CMD ["apache2-foreground"]
